@@ -1,11 +1,13 @@
 # MVMovies
 
 Important Notes:
+
 ***in order to use caching, please download and unzip "redis_cache.rar" file. And then run executable exe file.
 
 ****in the project default database status is online. the project still connected to database online.
 if you want to use locally, please download "MVMovies_Sql.sql" file and attaced to your local database. 
 With name of database "MVMovies";
+
 
 
 Project Notes:
