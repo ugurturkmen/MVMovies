@@ -1,0 +1,12 @@
+D:\Calismalar\MVMovies\MVMovies.HostedService\bin\Release\netcoreapp2.1\MVMovies.HostedService.deps.json
+D:\Calismalar\MVMovies\MVMovies.HostedService\bin\Release\netcoreapp2.1\MVMovies.HostedService.dll
+D:\Calismalar\MVMovies\MVMovies.HostedService\bin\Release\netcoreapp2.1\MVMovies.HostedService.pdb
+D:\Calismalar\MVMovies\MVMovies.HostedService\bin\Release\netcoreapp2.1\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Calismalar\MVMovies\MVMovies.HostedService\bin\Release\netcoreapp2.1\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Calismalar\MVMovies\MVMovies.HostedService\obj\Release\netcoreapp2.1\MVMovies.HostedService.csprojAssemblyReference.cache
+D:\Calismalar\MVMovies\MVMovies.HostedService\obj\Release\netcoreapp2.1\MVMovies.HostedService.csproj.CoreCompileInputs.cache
+D:\Calismalar\MVMovies\MVMovies.HostedService\obj\Release\netcoreapp2.1\MVMovies.HostedService.AssemblyInfoInputs.cache
+D:\Calismalar\MVMovies\MVMovies.HostedService\obj\Release\netcoreapp2.1\MVMovies.HostedService.AssemblyInfo.cs
+D:\Calismalar\MVMovies\MVMovies.HostedService\obj\Release\netcoreapp2.1\MVMovies.HostedService.csproj.CopyComplete
+D:\Calismalar\MVMovies\MVMovies.HostedService\obj\Release\netcoreapp2.1\MVMovies.HostedService.dll
+D:\Calismalar\MVMovies\MVMovies.HostedService\obj\Release\netcoreapp2.1\MVMovies.HostedService.pdb

@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>MV Movies</title>
+    <!-- Bootstrap core CSS -->
+    <link href="template/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="template/css/jquery.bxslider.css" rel="stylesheet">
+    <link href="template/css/style.css" rel="stylesheet">
+
+    <style>
+        .form-group > .form-content{
+            color: black;
+        }
+        .form-group > .form-title {
+            color: #aba9a9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/Home.html">Home</a></li>
+                    <li><a href="#">TV &amp; Video</a></li>
+                    <li><a href="#">Charts &amp; Trends</a></li>
+                    <li><a href="#">Special Features</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+
+        <section>
+            <div class="row">
+                <div class="col-md-8">
+                    <div style="margin-top:100px;">
+                        <div class="col-md-2">
+                            <h4>Movie Title</h4>
+                        </div>
+                        <div class="col-md-7">
+                            <input type="text" class="form-control" id="txtMovieTitle" />
+                        </div>
+                        <div class="col-md-3">
+                            <input type="button" class="btn btn-primary" id="btnSearch" value="Search" style="width:150px;" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12" style="padding-top:60px;">
+                            <div id="divMovie_Error" style="display:none">
+                                <h3 style="color:orange;text-align:center" id="hdMovie_Error"></h3>
+                            </div>
+                            <div id="divMovie_Detail" style="display:none">
+                                <div class="col-md-6">
+                                    <img id="imgMovieDetail_Poster" style="width:100%" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-title">Title: </label>
+                                        <label class="form-content" id="lblMovieDetail_Title"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Year: </label>
+                                        <label class="form-content" id="lblMovieDetail_Year"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Rated: </label>
+                                        <label class="form-content" id="lblMovieDetail_Rated"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Rating: </label>
+                                        <label class="form-content" id="lblMovieDetail_Rating"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Votes: </label>
+                                        <label class="form-content" id="lblMovieDetail_Votes"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Released: </label>
+                                        <label class="form-content" id="lblMovieDetail_Released"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Runtime: </label>
+                                        <label class="form-content" id="lblMovieDetail_Runtime"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Director: </label>
+                                        <label class="form-content" id="lblMovieDetail_Director"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Language: </label>
+                                        <label class="form-content" id="lblMovieDetail_Language"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Country: </label>
+                                        <label class="form-content" id="lblMovieDetail_Country"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Awards: </label>
+                                        <label class="form-content" id="lblMovieDetail_Awards"></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="padding-top:20px;">
+                                    <div class="form-group">
+                                        <label class="form-title">Writer: </label>
+                                        <label class="form-content" id="lblMovieDetail_Writer"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Actors: </label>
+                                        <label class="form-content" id="lblMovieDetail_Actors"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-title">Plot: </label>
+                                        <label class="form-content" id="lblMovieDetail_Plot"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 sidebar-gutter" style="padding-top:100px">
+                    <aside>
+                        <!-- sidebar-widget -->
+                        <div class="sidebar-widget" id="divRight_MyProfile" style="display:none">
+                            <h3 class="sidebar-title">MY PROFILE</h3>
+                            <div class="widget-container widget-about">
+                                <a href="#"><img src="template/images/user_icon.jpg" alt="" style="width:200px; margin-left:62px;"></a>
+                                <h4 id="hMyProfile_Name"></h4>
+                                <input type="button" class="btn btn-warning" id="btnLogOut" value="Log Out" style="width:100%; margin-top:20px;" onclick="Logout()" />
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget" id="divRight_SignIn" style="display:none">
+                            <h3 class="sidebar-title">SIGN IN</h3>
+                            <div class="widget-container widget-about">
+
+                                <div class="form-group">
+                                    <label>User Name</label>
+                                    <input type="text" class="form-control" id="txtLogin_UserName" value="turkmen" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" id="txtLogin_Password" value="123456" />
+                                </div>
+                                <div class="form-group" id="divSigIn_warning">
+                                </div>
+
+                                <input type="button" class="btn btn-info" id="btnSignIn" value="Sign In" style="width:100%; margin-top:10px;" onclick="SignIn()" />
+                            </div>
+                        </div>
+
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </div><!-- /.container -->
+    <footer class="footer">
+        <div class="footer-bottom">
+            <i class="fa fa-copyright"></i> Copyright 2019. All rights reserved.
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+
+    <script src="http://panel.1telekom.com.tr/Content/js/jquery.min.js"></script>
+    <script src="template/js/bootstrap.min.js"></script>
+    <script src="template/js/jquery.bxslider.js"></script>
+    <script src="template/js/mooz.scripts.min.js"></script>
+
+    <script src="General.js"></script>
+
+</body>
+</html>

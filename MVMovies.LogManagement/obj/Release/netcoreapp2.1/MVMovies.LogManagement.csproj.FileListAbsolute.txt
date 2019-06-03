@@ -1,0 +1,12 @@
+D:\Calismalar\MVMovies\MVMovies.LogManagement\bin\Release\netcoreapp2.1\MVMovies.LogManagement.deps.json
+D:\Calismalar\MVMovies\MVMovies.LogManagement\bin\Release\netcoreapp2.1\MVMovies.LogManagement.dll
+D:\Calismalar\MVMovies\MVMovies.LogManagement\bin\Release\netcoreapp2.1\MVMovies.LogManagement.pdb
+D:\Calismalar\MVMovies\MVMovies.LogManagement\bin\Release\netcoreapp2.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Calismalar\MVMovies\MVMovies.LogManagement\bin\Release\netcoreapp2.1\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Calismalar\MVMovies\MVMovies.LogManagement\obj\Release\netcoreapp2.1\MVMovies.LogManagement.csprojAssemblyReference.cache
+D:\Calismalar\MVMovies\MVMovies.LogManagement\obj\Release\netcoreapp2.1\MVMovies.LogManagement.csproj.CoreCompileInputs.cache
+D:\Calismalar\MVMovies\MVMovies.LogManagement\obj\Release\netcoreapp2.1\MVMovies.LogManagement.AssemblyInfoInputs.cache
+D:\Calismalar\MVMovies\MVMovies.LogManagement\obj\Release\netcoreapp2.1\MVMovies.LogManagement.AssemblyInfo.cs
+D:\Calismalar\MVMovies\MVMovies.LogManagement\obj\Release\netcoreapp2.1\MVMovies.LogManagement.csproj.CopyComplete
+D:\Calismalar\MVMovies\MVMovies.LogManagement\obj\Release\netcoreapp2.1\MVMovies.LogManagement.dll
+D:\Calismalar\MVMovies\MVMovies.LogManagement\obj\Release\netcoreapp2.1\MVMovies.LogManagement.pdb

@@ -1,0 +1,14 @@
+D:\Calismalar\MVMovies\MVMovies.DTO\bin\Release\netcoreapp2.1\MVMovies.DTO.deps.json
+D:\Calismalar\MVMovies\MVMovies.DTO\bin\Release\netcoreapp2.1\MVMovies.DTO.dll
+D:\Calismalar\MVMovies\MVMovies.DTO\bin\Release\netcoreapp2.1\MVMovies.DTO.pdb
+D:\Calismalar\MVMovies\MVMovies.DTO\bin\Release\netcoreapp2.1\MVMovies.DAO.dll
+D:\Calismalar\MVMovies\MVMovies.DTO\bin\Release\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+D:\Calismalar\MVMovies\MVMovies.DTO\bin\Release\netcoreapp2.1\MVMovies.DAO.pdb
+D:\Calismalar\MVMovies\MVMovies.DTO\bin\Release\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+D:\Calismalar\MVMovies\MVMovies.DTO\obj\Release\netcoreapp2.1\MVMovies.DTO.csprojAssemblyReference.cache
+D:\Calismalar\MVMovies\MVMovies.DTO\obj\Release\netcoreapp2.1\MVMovies.DTO.csproj.CoreCompileInputs.cache
+D:\Calismalar\MVMovies\MVMovies.DTO\obj\Release\netcoreapp2.1\MVMovies.DTO.AssemblyInfoInputs.cache
+D:\Calismalar\MVMovies\MVMovies.DTO\obj\Release\netcoreapp2.1\MVMovies.DTO.AssemblyInfo.cs
+D:\Calismalar\MVMovies\MVMovies.DTO\obj\Release\netcoreapp2.1\MVMovies.DTO.csproj.CopyComplete
+D:\Calismalar\MVMovies\MVMovies.DTO\obj\Release\netcoreapp2.1\MVMovies.DTO.dll
+D:\Calismalar\MVMovies\MVMovies.DTO\obj\Release\netcoreapp2.1\MVMovies.DTO.pdb

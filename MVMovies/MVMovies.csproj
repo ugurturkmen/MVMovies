@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVMovies.BUS\MVMovies.BUS.csproj" />
+    <ProjectReference Include="..\MVMovies.DAO\MVMovies.DAO.csproj" />
+    <ProjectReference Include="..\MVMovies.DataCache\MVMovies.DataCache.csproj" />
+    <ProjectReference Include="..\MVMovies.DTO\MVMovies.DTO.csproj" />
+    <ProjectReference Include="..\MVMovies.HostedService\MVMovies.HostedService.csproj" />
+    <ProjectReference Include="..\MVMovies.LogManagement\MVMovies.LogManagement.csproj" />
+  </ItemGroup>
+
+</Project>

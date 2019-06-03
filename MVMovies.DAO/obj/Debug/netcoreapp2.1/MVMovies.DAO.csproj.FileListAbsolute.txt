@@ -1,0 +1,11 @@
+D:\Calismalar\MVMovies\MVMovies.DAO\bin\Debug\netcoreapp2.1\MVMovies.DAO.deps.json
+D:\Calismalar\MVMovies\MVMovies.DAO\bin\Debug\netcoreapp2.1\MVMovies.DAO.dll
+D:\Calismalar\MVMovies\MVMovies.DAO\bin\Debug\netcoreapp2.1\MVMovies.DAO.pdb
+D:\Calismalar\MVMovies\MVMovies.DAO\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+D:\Calismalar\MVMovies\MVMovies.DAO\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+D:\Calismalar\MVMovies\MVMovies.DAO\obj\Debug\netcoreapp2.1\MVMovies.DAO.csproj.CoreCompileInputs.cache
+D:\Calismalar\MVMovies\MVMovies.DAO\obj\Debug\netcoreapp2.1\MVMovies.DAO.AssemblyInfoInputs.cache
+D:\Calismalar\MVMovies\MVMovies.DAO\obj\Debug\netcoreapp2.1\MVMovies.DAO.AssemblyInfo.cs
+D:\Calismalar\MVMovies\MVMovies.DAO\obj\Debug\netcoreapp2.1\MVMovies.DAO.csproj.CopyComplete
+D:\Calismalar\MVMovies\MVMovies.DAO\obj\Debug\netcoreapp2.1\MVMovies.DAO.dll
+D:\Calismalar\MVMovies\MVMovies.DAO\obj\Debug\netcoreapp2.1\MVMovies.DAO.pdb

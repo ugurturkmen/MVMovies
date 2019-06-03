@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVMovies.APIMovies\MVMovies.APIMovies.csproj" />
+    <ProjectReference Include="..\MVMovies.DAO\MVMovies.DAO.csproj" />
+    <ProjectReference Include="..\MVMovies.DataCache\MVMovies.DataCache.csproj" />
+    <ProjectReference Include="..\MVMovies.DTO\MVMovies.DTO.csproj" />
+    <ProjectReference Include="..\MVMovies.LogManagement\MVMovies.LogManagement.csproj" />
+  </ItemGroup>
+
+</Project>
