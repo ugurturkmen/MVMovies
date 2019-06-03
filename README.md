@@ -10,6 +10,8 @@ With name of database "MVMovies";
 
 
 
+
+
 Project Notes:
 
 In order to perform cache from Movie request I used Redis, 
